@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="412.0" prefWidth="733.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.samost1508.HelloController">
+   <children>
+      <TextField fx:id="firstSide" layoutX="84.0" layoutY="99.0" />
+      <TextField fx:id="secondSide" layoutX="84.0" layoutY="261.0" />
+      <TextArea fx:id="result" layoutX="415.0" layoutY="92.0" prefHeight="200.0" prefWidth="200.0" />
+      <Button fx:id="btnCalc" layoutX="257.0" layoutY="136.0" mnemonicParsing="false" onAction="#initialize" prefHeight="113.0" prefWidth="133.0" text="Button" />
+   </children>
+</AnchorPane>
